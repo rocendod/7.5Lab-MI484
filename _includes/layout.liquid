@@ -4,6 +4,7 @@ title: API Lab Test
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,10 +13,16 @@ title: API Lab Test
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-      Hello world!
-  </h1>
-    {{ content }}
-</body>
+
+  <body>
+    <h1 class="text-6xl font-bold underline">
+        Hello world!
+    </h1>
+
+    <div x-data="{thumbImage: $fetchjson('https://dummyjson.com/products/1', jsonItem='thumbnail')}">
+      <img alt="thumbnail" x-bind:src="thumbImage" />
+    </div>
+
+  </body>
+
 </html>
