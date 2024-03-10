@@ -1,16 +1,5 @@
 body {
-    font-family: 'Nunito';
-}
-p {
-    color: #EAE8FF;
-}
-h1 {
-    color: #272727;
-}
-button {
-    border-radius: 10px;
-}
-
-img {
-    margin: 0 auto 0;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
 }
