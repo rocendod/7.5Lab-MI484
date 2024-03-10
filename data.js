@@ -14,7 +14,3 @@ const data = () => {
         },
     };
 };
-
-fetch('https://dummyjson.com/recipes')
-.then(res => res.json())
-.then(json => console.log(json))
