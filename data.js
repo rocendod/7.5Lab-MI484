@@ -14,3 +14,5 @@ const data = () => {
         },
     };
 };
+
+//console.log(data) -what is inside data which should be the recipes//
